@@ -7,6 +7,8 @@ export function useSeoProps(
 	props: Partial<ComponentProps<typeof NextSeo>> = {},
 ): Partial<ComponentProps<typeof NextSeo>> {
 	const router = useRouter();
+	const path = router.asPath.split(/[?#]/)[0].replace(/\/+$/, '');
+	const url = `https://sameemul-haque.vercel.app${path}`;
 
 	const title = 'sameemul haque ─ developer';
 	const description = "Hey 👋 I'm Sameemul Haque, a developer";
@@ -14,12 +16,12 @@ export function useSeoProps(
 	return {
 		title,
 		description,
-		canonical: `https://sameemul-haque.vercel.app/${router.asPath}`,
+		canonical: url,
 		openGraph: {
 			title,
 			description,
 			site_name: 'sameemul haque',
-			url: `https://sameemul-haque.vercel.app/${router.asPath}`,
+			url,
 			type: 'website',
 			images: [
 				{

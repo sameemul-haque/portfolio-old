@@ -39,7 +39,7 @@ const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: '/blog',
+		href: 'https://sameem.dev/blog/',
 		icon: <Icon className="mr-3" icon="line-md:edit" />,
 		text: 'Blog',
 	},

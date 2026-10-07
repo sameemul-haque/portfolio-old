@@ -40,7 +40,7 @@ export function Error({ routeBlog = true }: ErrorProps): JSX.Element {
 							</Button.Standard>
 							{routeBlog && (
 								<Button.Standard
-									href="/blog"
+									href="https://sameem.dev/blog/"
 									icon="feather:book"
 									type={NavigationItemType.LINK}>
 									Blog

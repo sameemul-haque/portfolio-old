@@ -19,7 +19,8 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			type: NavigationItemType.LINK,
 			icon: 'line-md:edit',
 			text: 'Blog',
-			href: '/blog',
+			href: 'https://sameem.dev/blog/',
+			external: true,
 		},
 		{
 			type: NavigationItemType.LINK,
