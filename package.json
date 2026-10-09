@@ -3,7 +3,7 @@
 	"name": "sameemul-haque.vercel.app",
 	"version": "10.8.1",
 	"description": "Personal Website for sameemul-haque",
-	"repository": "https://github.com/sameemul-haque/portfolio.git",
+	"repository": "https://github.com/sameemul-haque/portfolio-old.git",
 	"license": "MIT",
 	"engines": {
 		"node": "24.x"
