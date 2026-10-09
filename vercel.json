@@ -2,7 +2,6 @@
 	"$schema": "https://openapi.vercel.sh/vercel.json",
 	"version": 2,
 	"alias": "sameemul-haque.vercel.app",
-	"cleanUrls": true,
 	"public": true,
 	"regions": ["bom1"],
 	"redirects": [
