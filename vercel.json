@@ -6,18 +6,21 @@
 	"public": true,
 	"regions": ["bom1"],
 	"redirects": [
+		{ "source": "/", "destination": "https://sameem.dev/", "permanent": true },
+		{ "source": "/projects", "destination": "https://sameem.dev/projects/", "permanent": true },
+		{ "source": "/portfolio", "destination": "https://sameem.dev/projects/", "permanent": true },
+		{ "source": "/timeline", "destination": "https://sameem.dev/experience/", "permanent": true },
+		{ "source": "/skills", "destination": "https://sameem.dev/experience/", "permanent": true },
+		{ "source": "/status", "destination": "https://sameem.dev/", "permanent": true },
 		{ "source": "/blog", "destination": "https://sameem.dev/blog/", "permanent": true },
 		{ "source": "/blog/hacktoberfest_2023", "destination": "https://sameem.dev/blog/hacktoberfest-2023/", "permanent": true },
 		{ "source": "/blog/:slug", "destination": "https://sameem.dev/blog/:slug/", "permanent": true },
-		{ "source": "/cv", "destination": "https://drive.google.com/file/d/1_xn33U0VfmW2oD9iyBH1ki12SqkJ8Avr/" },
-		{ "source": "/github", "destination": "https://github.com/sameemul-haque" },
-		{ "source": "/linkedin", "destination": "https://www.linkedin.com/in/sameemul-haque" },
-		{ "source": "/portfolio", "destination": "/projects" },
-		{ "source": "/resume", "destination": "https://drive.google.com/file/d/1_xn33U0VfmW2oD9iyBH1ki12SqkJ8Avr/" },
-		{ "source": "/twitter", "destination": "https://twitter.com/sameemul-haque" },
-		{
-			"source": "/contact",
-			"destination": "https://www.linkedin.com/in/sameemul-haque"
-		}
+		{ "source": "/cv", "destination": "https://sameem.dev/cv/", "permanent": true },
+		{ "source": "/resume", "destination": "https://sameem.dev/resume/", "permanent": true },
+		{ "source": "/github", "destination": "https://sameem.dev/github/", "permanent": true },
+		{ "source": "/linkedin", "destination": "https://sameem.dev/linkedin/", "permanent": true },
+		{ "source": "/twitter", "destination": "https://sameem.dev/twitter/", "permanent": true },
+		{ "source": "/contact", "destination": "https://sameem.dev/contact/", "permanent": true },
+		{ "source": "/:path*", "destination": "https://sameem.dev/", "permanent": true }
 	]
 }
