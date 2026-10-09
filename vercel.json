@@ -21,6 +21,13 @@
 		{ "source": "/linkedin", "destination": "https://sameem.dev/linkedin/", "permanent": true },
 		{ "source": "/twitter", "destination": "https://sameem.dev/twitter/", "permanent": true },
 		{ "source": "/contact", "destination": "https://sameem.dev/contact/", "permanent": true },
-		{ "source": "/:path*", "destination": "https://sameem.dev/", "permanent": true }
+		{ "source": "/robots.txt", "destination": "https://sameem.dev/robots.txt", "permanent": true },
+		{ "source": "/sitemap.xml", "destination": "https://sameem.dev/sitemap-index.xml", "permanent": true },
+		{ "source": "/sitemap-0.xml", "destination": "https://sameem.dev/sitemap-index.xml", "permanent": true },
+		{
+			"source": "/((?!google929bf50af7255825\\.html|BingSiteAuth\\.xml).*)",
+			"destination": "https://sameem.dev/",
+			"permanent": true
+		}
 	]
 }
